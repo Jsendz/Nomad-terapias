@@ -3,9 +3,8 @@ import './App.css'
 import NuestraEsencia from './components/NuestraEsencia'
 import NavbarDef from './components/NavbarDef'
 import Formulario from './components/MetodoNomad'
-import TerapiaManual2 from './components/TerapiaManual2'
 import Tarifas2 from './components/Tarifas2'
-
+import Footer from './components/Footer'
 
 
 
@@ -21,6 +20,7 @@ function App() {
       <NuestraEsencia />
       <Tarifas2 />
       <Formulario />
+      <Footer />
       
       
       
