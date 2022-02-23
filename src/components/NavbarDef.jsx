@@ -4,11 +4,11 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
   { name: 'Inicio', href: '#', current: true },
-  { name: '¿Quienes Somos?', href: '#', current: false },
+  { name: '¿Quienes Somos?', href: '#Quienesomos', current: false },
   { name: 'Centro de Terapia Manual', href: '#', current: false },
   { name: 'Metodo Nomad', href: '#', current: false },
-  { name: 'Tarifas', href: '#', current: false },
-  { name: 'contacto', href: '#', current: false },
+  { name: 'Tarifas', href: '#Tarifas2', current: false },
+  { name: 'contacto', href: '.MetodoNomad', current: false },
 ]
 
 function classNames(...classes) {

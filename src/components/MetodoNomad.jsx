@@ -35,7 +35,7 @@ const handleSubmit =(e) => {
        
 
   
-        <div className="w-2/5 ml-5 pb-5">
+        <div className="w-11/12 md:w-2/5  m-auto md:ml-5 pb-2 md:pb-5">
         <form onSubmit={handleSubmit} action="" className="bg-white shadow-md rounded-lg py-10 px-5 mb-10">
             {Error && (<div className="bg-red-800 text-center text-white p-3 uppercase font-bold mb-3 rounded-md ">
                 <p>Si hay un error</p>
@@ -66,7 +66,7 @@ const handleSubmit =(e) => {
             <input type="submit" className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer" value="Enviar Peticion" />
         </form>
         </div>
-            <div className="h-80 w-2/4 bg-slate-300 rounded-lg">
+            <div className="h-20 pb-5 md:h-80 w-2/4 bg-slate-300 rounded-lg">
                 <h1 className="md:text-4xl text-slate-600">Para primeras <strong>citas</strong> llamanos al <span>+33 123456789</span>
 
                 </h1>
