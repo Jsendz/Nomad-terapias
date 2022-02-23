@@ -8,7 +8,7 @@ const navigation = [
   { name: 'Centro de Terapia Manual', href: '#', current: false },
   { name: 'Metodo Nomad', href: '#', current: false },
   { name: 'Tarifas', href: '#Tarifas2', current: false },
-  { name: 'contacto', href: '.MetodoNomad', current: false },
+  { name: 'contacto', href: 'MetodoNomad', current: false },
 ]
 
 function classNames(...classes) {
