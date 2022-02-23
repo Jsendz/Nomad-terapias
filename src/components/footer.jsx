@@ -3,6 +3,7 @@ import React from 'react'
 const footer = () => {
   return (
     <>
+    <div className="w-full h-28 bg-cyan-900">
       <div>
           <h1>Request</h1>
             <hr />
@@ -22,6 +23,7 @@ const footer = () => {
           <i class="fa fa-phone" aria-hidden="true">+376 612400</i>
 
       </div>
+    </div>
 
 
     </>
