@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["/public/**/*.{html,jsx}"],
+  content: ["./public/**/*.{html,jsx}"],
   theme: {
     extend: {
       'sunset' : "url('assets/adobesunset2.jpeg')",
