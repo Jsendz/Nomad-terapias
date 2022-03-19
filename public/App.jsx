@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <div className="">
       <NavbarDef/>
-      <img className="h-screen w-full object-cover" src="/public/assets/atardecer.jpg" alt="" />
+      <img className="h-screen w-full object-cover" src="https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg" alt="" />
       </div>
       <NuestraEsencia />
       <Tarifas2 />
