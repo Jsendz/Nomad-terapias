@@ -1,9 +1,9 @@
 
 import './App.css'
-import NuestraEsencia from '/components/NuestraEsencia'
-import NavbarDef from '/components/NavbarDef'
-import Formulario from '/components/MetodoNomad'
-import Tarifas2 from '/components/Tarifas2'
+import NuestraEsencia from '/public/components/NuestraEsencia'
+import NavbarDef from '/public/components/NavbarDef'
+import Formulario from '/public/components/MetodoNomad'
+import Tarifas2 from '/public/components/Tarifas2'
 
 
 
