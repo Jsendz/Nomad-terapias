@@ -26,11 +26,11 @@ const handleSubmit =(e) => {
  
 
     return (
-    <div className="h-full m-full bg-amber-500">
+    <div id="Contacto"className="h-full m-full bg-amber-700">
         <h2 className="font-black text-3xl text-center text-gray-800 p-10 underline">Contacta con nosotros!</h2>
 
 
-        <div className="flex flex-col md:flex-row justify-around">
+        <div className="flex flex-col md:flex-row justify-around md:items-center">
 
        
 
@@ -66,8 +66,9 @@ const handleSubmit =(e) => {
             <input type="submit" className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer" value="Enviar Peticion" />
         </form>
         </div>
-            <div className="h-20 pb-5 md:h-80 w-2/4 bg-slate-300 rounded-lg">
-                <h1 className="md:text-4xl text-slate-600">Para primeras <strong>citas</strong> llamanos al <span>+33 123456789</span>
+            <div className="h-20 w-80 m-auto md:my-0 md:mx-auto mb-3 pt-2 md:h-60 md:w-2/4 md:pt-10 md:px-6  bg-slate-100 rounded-lg">
+                <h1 className="text-2xl p md:text-5xl md:font-bold md:px-2 text-slate-600">Para primeras <strong className="text-amber-700">citas</strong> llamanos al 
+                {' '}<span>+33 123456789</span>
 
                 </h1>
                 <p></p>

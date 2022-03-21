@@ -3,12 +3,12 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Inicio', href: '#', current: true },
-  { name: '¿Quienes Somos?', href: '#Quienesomos', current: false },
-  { name: 'Centro de Terapia Manual', href: '#', current: false },
-  { name: 'Metodo Nomad', href: '#', current: false },
-  { name: 'Tarifas', href: '#Tarifas2', current: false },
-  { name: 'contacto', href: 'MetodoNomad', current: false },
+  { name: 'Inicio', href: "/", current: true },
+  { name: '¿Quienes Somos?', href: "#NuestraEsencia", current: false },
+  { name: 'Centro de Terapia Manual', href: "#NuestraEsencia", current: false },
+  { name: 'Metodo Nomad', href: "#NuestraEsencia", current: false },
+  { name: 'Tarifas', href: "#Tarifas", current: false },
+  { name: 'contacto', href: "#Contacto", current: false },
 ]
 
 function classNames(...classes) {
@@ -20,7 +20,7 @@ export default function Example() {
     <Disclosure as="nav" className="bg-transparent absolute w-full">
       {({ open }) => (
         <>
-          <div className="max-w-7xl h-32 mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="max-w-7xl xl:max-w-full h-32 mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-full">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -53,8 +53,8 @@ export default function Example() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white font-semibold text-xl' : 'text-slate-700 hover:bg-gray-700 hover:text-white font-semibold text-xl',
-                          'px-3 py-2 rounded-md text-sm font-medium'
+                          item.current ? 'bg-gray-900 text-white font-semibold text-xl ' : 'text-slate-700 hover:bg-gray-700 hover:text-white font-semibold text-xl ',
+                          'px-3 py-2   rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >

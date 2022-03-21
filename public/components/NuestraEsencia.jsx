@@ -10,8 +10,9 @@ const [Quien, setQuien] = useState(false);
 const [Terapia, setTerapia] = useState(false);
 
   return ( 
-  <div className="bg-slate-100 w-full">
-    <h1 className="text-[#305C70] text-6xl font-bold uppercase md:py-20 font-courgette">Nuestra Esencia</h1>
+    
+  <div id="NuestraEsencia" className="bg-slate-100 xl:h-full w-full">
+    <h1 className="text-[#305C70] text-6xl font-bold uppercase py-10 md:py-20 font-courgette">Nuestra Esencia</h1>
     <p className="text-left px-7 md:px-2 md:w-3/4 md:mx-auto md:pb-10 text-gray-800 text-xl md:text-3xl md:break-words">Después del trayecto recorrido e inspirarnos en diferentes fuentes terapéuticas, nuestras experiencias y reflexiones nos han traído hasta el 
     {' '}<span className="font-bold">MÉTODO NOMAD</span>{' '}
      cómo síntesis de un camino de conocimientos.</p>

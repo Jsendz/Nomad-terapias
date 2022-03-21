@@ -16,10 +16,10 @@ const Quienesomos = () => {
       </p>
       <p className="md:py-10 text-slate-700">Somos <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-cyan-900">ARTE-SANOS</span>, cada tratamiento es individualizado y único dentro de tú  plan de rehabilitación. Sí quieres, podemos acompañarte en tú camino hacia la salud.</p>
       </div>
-    <div className="flex flex-col md:flex-row items-center justify-around rounded-xl w-full md:h-screen">
-      <div className="flex flex-col md:flex-col items-center text-left bg-slate-300 rounded-xl p-5 shadow-xl md:max-h-96 w-80">
-      <img className="h-32 w-32 m-auto my-0 rounded-full " src="./src/assets/pruebaperfil.jpg" alt=""  />
-      <ul className="py-5 list-disc">
+    <div className="flex flex-col my-5 md:flex-row items-center justify-around rounded-xl w-full md:h-screen">
+      <div className="flex flex-col my-5 md:flex-col items-center text-left bg-slate-300 rounded-xl p-5 shadow-xl md:max-h-96 w-80">
+      <img className="h-32 w-32 m-auto my-0 rounded-full " src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg" alt=""  />
+      <ul className="py-5 pl-2 list-disc">
           <li>Fisioterapia COL.5335</li>
           <hr />
           <li>Master en Profundizacion Anatomica (UB)</li>
@@ -30,8 +30,8 @@ const Quienesomos = () => {
       </ul>
       </div>
       <div className="flex flex-col md:flex-col text-left bg-slate-300 rounded-xl p-5 md:max-h-96 shadow-xl w-80" >
-      <img className="h-32 w-32 m-auto my-0 rounded-full " src="./src/assets/pruebaperfil.jpg" alt=""  />
-      <ul className="py-5 list-disc">
+      <img className="h-32 w-32 m-auto my-0 rounded-full " src="https://cdn.pixabay.com/photo/2018/05/07/10/48/husky-3380548_1280.jpg" alt=""  />
+      <ul className="py-5 pl-2 list-disc">
           <li>Fisioterapia COL.10806</li>
           <hr />
           <li>Diplomado en Educacion Fisica</li>

@@ -2,8 +2,9 @@
 import './App.css'
 import NuestraEsencia from '/public/components/NuestraEsencia'
 import NavbarDef from '/public/components/NavbarDef'
-import Formulario from '/public/components/MetodoNomad'
-import Tarifas2 from '/public/components/Tarifas2'
+import Formulario from '/public/components/Formulario'
+import Tarifas from '/public/components/Tarifas'
+import Footer from '/public/components/Footer'
 
 
 
@@ -18,8 +19,10 @@ function App() {
       <img className="h-screen w-full object-cover" src="https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg" alt="" />
       </div>
       <NuestraEsencia />
-      <Tarifas2 />
+      <Tarifas />
       <Formulario />
+      <Footer />
+      
       
       
       
