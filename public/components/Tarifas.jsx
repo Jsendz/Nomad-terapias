@@ -54,7 +54,7 @@ const features = [
 
             </div>
             <img
-              src="https://cdn.pixabay.com/photo/2017/09/06/20/35/woman-2722936_1280.jpg"
+              src="https://cdn.pixabay.com/photo/2020/08/12/14/57/massage-5482842_1280.jpg"
               alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
               className="bg-gray-100 rounded-lg"
             />
